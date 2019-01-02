@@ -30,13 +30,13 @@ XRManager: To re-center the VR scene in the camera when it’s launched.
 
  Directory:
 
-Assets/Google VR: It contains the Google VR SDK assets. I’ve utilized it to incorporate GVR reticle pointer for raycasting in Unity. Raycasting is used to add interactions with physical objects in the space.
+Assets/Google VR: It contains the Google VR SDK assets. I’ve utilized it to incorporate GVR reticle pointer for raycasting in Unity. Raycasting is used to add interactions with physical objects in the space. The unnecessary elements have been removed from the Google VR directory to reduce the file size. Feel free to import the new SDK, if any problem occurs.
 
 Assets/Materials: It contains the material preferences, for example, color for the objects, VR scene background, etc.
 
 Assets/Prefabs: It contains game object & its set preferences, which could be applied to multiple game objects sharing same attributes. Prefab is efficient way to set preferences or add components to the objects sharing same functionality.
 
-Assets/Resources: It contains 360 degree-videos and audio files.
+Assets/Resources: It contains 360 degree-videos and audio files. Note: The video files have been removed due to heavy space utilization. 
 
 Assets/Scenes: It contains VR scenes. Each scene includes game objects, which is played when the app on the smartphone is running. The scenes could be switched from one to other.
 
