@@ -30,6 +30,8 @@ XRManager: To re-center the VR scene in the camera when it’s launched.
 
  Directory:
 
+Assets/Canvas.anim: The animation file for the parent canvas wherein all the UI panels are wrapped in. It changes the z-axis position to render the zoom effect when the user opens the main scene.
+
 Assets/Google VR: It contains the Google VR SDK assets. I’ve utilized it to incorporate GVR reticle pointer for raycasting in Unity. Raycasting is used to add interactions with physical objects in the space. The unnecessary elements have been removed from the Google VR directory to reduce the file size. Feel free to import the new SDK, if any problem occurs.
 
 Assets/Materials: It contains the material preferences, for example, color for the objects, VR scene background, etc.
